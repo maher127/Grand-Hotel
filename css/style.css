@@ -514,6 +514,7 @@ body {
 }
 /* end of customers */
 /* footer */
+
 .footer {
   margin-left: 8rem;
 }
@@ -613,7 +614,22 @@ body {
   color: #aaa;
 }
 
+.text-right {
+  font-size: 1.4rem;
+  color: #bbb;
+}
+
+.text-right i {
+  font-size: 2rem;
+  margin: 0.5rem;
+  color: tomato;
+}
+
+.text-right span {
+  color: gold;
+}
 /* end of footer */
+
 @media (max-width: 1400px) {
   .customers-card-wrapper {
     flex-direction: column;
